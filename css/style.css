@@ -1,0 +1,146 @@
+body {
+  background-image: url("/images/theMillBackground.jpg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: ExtraBoldNova;
+    src: url(/fonts/ProximaNova-Extrabold.woff);
+}
+
+@font-face {
+  font-family: BoldNova;
+  src: url(/fonts/ProximaNova-Bold.woff);
+}
+
+@font-face {
+  font-family: RegularNova;
+  src: url(/fonts/ProximaNova-Regular.woff);
+}
+
+@font-face {
+    font-family: LightNova;
+    src: url(/fonts/ProximaNova-Light.woff);
+}
+
+.container {
+  position: relative;
+    margin: auto;
+    width: 1160px;
+    /*width: 80.9%;*/
+    margin-top: 40px;
+}
+.right {
+    float: right;
+    width: 100px;
+}
+.left {
+    float: left;
+    width: 100px;
+}
+.middle {
+    margin: 0 100px;
+}
+
+#logo {
+  width: 50px;
+}
+
+h1 {
+  color: white;
+  font-family: ExtraBoldNova;
+  text-align: right;
+  font-size: 50px;
+  padding: 0;
+  line-height: 90%;
+}
+
+
+#movingTitle {
+  width: 100%;
+  float: right;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+#media {
+  margin-top: 310px;
+}
+
+.thumbnail {
+  display: inline;
+  margin-right: -2px;
+  height: 135px;
+}
+
+.wrap {
+  width: 100%;
+}
+
+#player {
+  background-image: url("http://i1159.photobucket.com/albums/p624/sarahpenneyuk/mainimg_zpsgno61xmg.jpg");
+  background-size: cover;
+  width: 935px;
+  height: 510px;
+  /*background-color: red;*/
+  margin-top: 260px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.copyContainer {
+  margin-top: 90px;
+}
+
+.copyLeft {
+  float: left;
+  width: 50%;
+}
+.copyRight {
+  float: right;
+  width: 50%;
+}
+
+h2 {
+  font-family: BoldNova;
+  color: #3a3939;
+}
+
+p {
+  font-family: RegularNova;
+  color: #3a3939;
+  line-height: 140%;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  margin-top: 450px;
+  bottom: 0;
+  background-color: #3a3939;
+}
+
+.footerCopy {
+  font-family: LightNova;
+  position: absolute;
+  margin-top: 490px;
+  color: white;
+  z-index: 999;
+  font-size: 12px;
+}
+
+button {
+  text-align: center;
+  font-family: LightNova;
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+  position: absolute;
+  margin-top: 490px;
+  right: 100px;
+  padding: 18px 25px 18px 25px;
+  background-color: transparent;
+  font-size: 13px;
+
+}
